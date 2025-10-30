@@ -60,7 +60,7 @@ phrase_3 = "Supercagifragilistic"
 print(phrase_3.upper())
 print(phrase_3[0:5])
 print(phrase_3[5:0])
-print(phrase_3{-1})
+print(phrase_3[-1])
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
@@ -89,11 +89,13 @@ print(phrase_3{-1})
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
+words2 = sentence.join("")
+print(words2)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
