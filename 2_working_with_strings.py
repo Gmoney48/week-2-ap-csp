@@ -56,6 +56,11 @@ print (chicago_mayor[1:5])
 # when we get a chunk of letters
 # from a string its called
 # string slicing 
+phrase_3 = "Supercagifragilistic"
+print(phrase_3.upper())
+print(phrase_3[0:5])
+print(phrase_3[5:0])
+print(phrase_3{-1})
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
